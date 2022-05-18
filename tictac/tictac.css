@@ -1,0 +1,45 @@
+th {
+ color: teal;
+}
+#heading4 {
+ color: yellow;
+}
+.brown {
+ color: brown;
+}
+.yellow {
+ color: yellow;
+}
+.background-yellow {
+ background-color: yellow;
+ font-size: 40px;
+}
+.demo {
+ font-size: 10px;
+}
+.layout {
+ min-height: 100vh;
+ background-color: black;
+ color: white;
+ background-image: url(“https://img.icons8.com/cute-clipart/1064/000000/facebook-new.png");
+ background-repeat: no-repeat;
+ background-size: contain;
+ background-position: center;
+}
+.btn {
+ padding: 10px;
+ min-width: 50px;
+ border-radius: 5px;
+}
+@media only screen and (min-width: 600px) {
+ .background-yellow {
+ background-color: lightblue;
+ font-size: 20px;
+ }
+}
+@media only screen and (min-width: 700px) {
+ .background-yellow {
+ background-color: red;
+ font-size: 20px;
+ }
+}
